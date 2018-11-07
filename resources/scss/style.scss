@@ -14,18 +14,21 @@ body {
 //font-family: 'Exo', sans-serif;
 //font-family: 'Charmonman', cursive;
 //font-family: 'Arsenal', sans-serif;
+
 .logo {
   font-size: 28pt;
   border-radius: 10px;
-  overflow:hidden;
+  overflow: hidden;
 }
+
 .white-text {
-  padding: 0px 0px 0px 15px;
+  padding: 0 0 0 15px;
   background: #a9dcb2;
   color: white;
 }
+
 .black-text {
-  padding: 0px 15px 0px 0px;
+  padding: 0 15px 0 0;
   background: #a9dcb2;
   color: #444644;
 }
@@ -34,6 +37,7 @@ body {
   font-family: 'Varela Round', sans-serif;
   text-align: right;
 }
+
 .content {
   font-family: 'Arsenal', sans-serif;
 }
@@ -42,11 +46,75 @@ body {
   font-family: 'Exo', sans-serif;
   font-weight: bold;
 }
+
 .post-title .timing {
   font-weight: lighter;
   font-size: 9pt;
   color: #c0b7c2;
 }
+
+.post-title .author {
+  padding-left: 10pt;
+  font-size: 9pt;
+  color: #007b5e;
+}
+
 .post-content {
   font-family: 'Quicksand', sans-serif;
+}
+// navbar
+
+.bg-teal,
+.navbar-teal {
+  background: #007b5e;
+}
+
+.bg-teal a,
+.navbar-teal a {
+  color: white;
+}
+//
+#footer {
+  background: #007b5e !important;
+
+}
+
+#footer h5 {
+  padding-left: 10px;
+  border-left: 3px solid #eeeeee;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+#footer a {
+  color: #ffffff;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+#footer ul.social li {
+  padding: 3px 0;
+}
+
+#footer ul.social li a i {
+  margin-right: 5px;
+  font-size: 25px;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+#footer ul.social li:hover a i {
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+#footer ul.social li a {
+  color: #ffffff;
+}
+
+#footer ul.social li a:hover {
+  color: #eeeeee;
 }
