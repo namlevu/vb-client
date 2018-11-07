@@ -1,10 +1,52 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito|Poppins:500|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Arsenal|Charmonman|Exo|Pattaya|Quicksand|Varela+Round');
 @import "~bootstrap/scss/bootstrap";
 
-body,
-html {
+body {
   height: 100%;
-  background-color: rgba(0,0,0,.018);
+  //background-color: #c0b7c2;
   color: rgba(0,0,0,.75);
-  font-family: 'Nunito';
+  font-family: 'Pattaya', sans-serif;
+  padding-top: 80px;
+}
+//font-family: 'Quicksand', sans-serif;
+//font-family: 'Pattaya', sans-serif;
+//font-family: 'Varela Round', sans-serif;
+//font-family: 'Exo', sans-serif;
+//font-family: 'Charmonman', cursive;
+//font-family: 'Arsenal', sans-serif;
+.logo {
+  font-size: 28pt;
+  border-radius: 10px;
+  overflow:hidden;
+}
+.white-text {
+  padding: 0px 0px 0px 15px;
+  background: #a9dcb2;
+  color: white;
+}
+.black-text {
+  padding: 0px 15px 0px 0px;
+  background: #a9dcb2;
+  color: #444644;
+}
+
+.menu {
+  font-family: 'Varela Round', sans-serif;
+  text-align: right;
+}
+.content {
+  font-family: 'Arsenal', sans-serif;
+}
+
+.post-title {
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
+}
+.post-title .timing {
+  font-weight: lighter;
+  font-size: 9pt;
+  color: #c0b7c2;
+}
+.post-content {
+  font-family: 'Quicksand', sans-serif;
 }
