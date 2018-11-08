@@ -44,6 +44,12 @@ export default class About extends React.Component {
             <p>.</p>
             <p>.</p>
             <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
           </div>
         </div>
       </div>

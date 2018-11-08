@@ -1,6 +1,15 @@
 
-`npm install --save-dev node-sass html-webpack-plugin style-loader sass-loader css-loader file-loader html-loader webpack webpack-dev-server webpack-cli babel babel-loader babel-plugin-transform-object-rest-spread babel-preset-env babel-preset-react`
-
-`npm i -D extract-text-webpack-plugin@next`
-
-`npm i -S react moment bootstrap babel-polyfill history prop-types react-dom react-redux react-router-dom react-scripts redux axios`
+1. Clone source code from github: _link_  
+2. Clone server source code from github: _link_  
+3. Install Go
+4. Install mongodb (community version) and start mongod service
+5. Install server
+   copy server source code to $GOPATH/src folder
+   change directory to $GOPATH/src/vblog
+   run command `make run` (linux)
+   run command `build.bat` (windows)
+6. Config
+    Install nodejs and npm
+    Open cmd tool, change directory to downloaded folder.
+    Run `npm i` to install library
+    Run `npm run start`
