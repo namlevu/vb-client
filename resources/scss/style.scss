@@ -5,7 +5,7 @@ body {
   height: 100%;
   //background-color: #c0b7c2;
   color: rgba(0,0,0,.75);
-  font-family: 'Pattaya', sans-serif;
+  font-family: 'Arsenal', sans-serif;
   padding-top: 80px;
 }
 //font-family: 'Quicksand', sans-serif;
@@ -16,6 +16,7 @@ body {
 //font-family: 'Arsenal', sans-serif;
 
 .logo {
+  font-family: 'Pattaya', sans-serif;
   font-size: 28pt;
   border-radius: 10px;
   overflow: hidden;
@@ -23,13 +24,13 @@ body {
 
 .white-text {
   padding: 0 0 0 15px;
-  background: #a9dcb2;
+  //background: #a9dcb2;
   color: white;
 }
 
 .black-text {
   padding: 0 15px 0 0;
-  background: #a9dcb2;
+  //background: #a9dcb2;
   color: #444644;
 }
 
