@@ -1,13 +1,17 @@
 // src/components/App/index.jsx
 import React from 'react';
-import { withRouter, Switch, Route } from 'react-router-dom';
+import { withRouter, Switch, BrowserRouter, Route } from 'react-router-dom';
 
-import { Home } from '../../components';
+import { Home, About } from '../../components';
+
 
 const App = (props) => {
   return (
     <Switch>
-      <Route exact path="/" component={Home} />
+      <div>
+        <Route exact path="/" component={Home} />
+        <Route path="/who-am-i" component={About} />
+      </div>
     </Switch>
   )
 }
