@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import { connect } from 'react-redux';
 
+
 export default class About extends React.Component {
 /* // TODO: Get about content from server
   constructor(props) {
