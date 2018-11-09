@@ -1,35 +1,28 @@
 import React from 'react';
-import axios from 'axios';
-import { connect } from 'react-redux';
 
 import Sidebar from '../../components/Layout/Sidebar';
 
-export default class About extends React.Component {
-/* // TODO: Get about content from server
-  constructor(props) {
-    console.log("Home constructor called")
-    super(props);
-    this.state = {
-        content: {}
-    }
-  }
-
-  componentDidMount() {
-    console.log("Home componentDidMount called")
-    axios.get(`http://127.0.0.1:9009/v1/statics/about`)
-      .then(res => {
-        const content = res.data;
-        this.setState({ content });
-      })
-  }
-*/
+export default class Articles extends React.Component {
   render() {
-    console.log("about render")
+    console.log("Articles render")
+    var pathname = this.props.location.pathname;
+    var search = this.props.location.search;
+    console.log(pathname);
+    if(pathname == "/posts") {
+      return(
+        <h1>this is posts page</h1>
+      )
+    }
+    if(pathname == "/posts/new") {
+      return(
+        <h1>this is new post page</h1>
+      )
+    }
     return (
       <div className="container">
         <div className="row pt-2">
           <div className="col-md-8">
-            <h3>Tôi là ai và đây là đâu?</h3>
+            <h3>Post</h3>
             <p>
             Xin chào bạn, người vô tình ghé ngang qua một góc nhỏ của tôi.<br/>
             Tôi là một kỹ sư CNTT sinh sống tại Nhật Bản,

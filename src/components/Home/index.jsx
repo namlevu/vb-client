@@ -2,8 +2,8 @@ import React from 'react';
 import axios from 'axios';
 import { connect } from 'react-redux';
 
-import PostItem from '../../components/PostItem';
-import Sidebar from '../../components/Sidebar';
+import PostItem from '../../components/Post/PostItem';
+import Sidebar from '../../components/Layout/Sidebar';
 
 class Home extends React.Component {
 
