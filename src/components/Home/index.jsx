@@ -2,7 +2,8 @@ import React from 'react';
 import axios from 'axios';
 import { connect } from 'react-redux';
 
-import PostList from '../../components/PostList';
+import PostItem from '../../components/PostItem';
+import Sidebar from '../../components/Sidebar';
 
 class Home extends React.Component {
 
@@ -27,8 +28,18 @@ class Home extends React.Component {
 
     return (
       <div className="container">
-        <div className="row pt-5">
-          <PostList posts={this.state.posts} />
+        <div className="row pt-2">
+          <div className="col-md-8">
+            <p>  <a href="#">Home 〉</a> </p>
+
+
+            {this.state.posts.map((post) => {
+                return(
+                  <PostItem key={post.id} post={post} />
+                )
+            })}
+          </div>
+          <Sidebar />
         </div>
       </div>
     )

@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import { connect } from 'react-redux';
 
+import Sidebar from '../../components/Sidebar';
 
 export default class About extends React.Component {
 /* // TODO: Get about content from server
@@ -27,7 +28,7 @@ export default class About extends React.Component {
     return (
       <div className="container">
         <div className="row pt-2">
-          <div className="col-12">
+          <div className="col-md-8">
             <h3>Tôi là ai và đây là đâu?</h3>
             <p>
             Xin chào bạn, người vô tình ghé ngang qua một góc nhỏ của tôi.<br/>
@@ -52,6 +53,7 @@ export default class About extends React.Component {
             <p>.</p>
             <p>.</p>
           </div>
+          <Sidebar />
         </div>
       </div>
     )
