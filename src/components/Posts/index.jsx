@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Sidebar from '../../components/Layout/Sidebar';
+import CreatePostForm from './CreatePostForm';
 
 export default class Posts extends React.Component {
   render() {
@@ -15,7 +16,7 @@ export default class Posts extends React.Component {
     }
     if(pathname == "/posts/new") {
       return(
-        <h1>this is new post page</h1>
+        <CreatePostForm />
       )
     }
     return (
