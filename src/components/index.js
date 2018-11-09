@@ -2,8 +2,8 @@
 export { default as App } from './App';
 
 export { default as Layout } from './Layout';
-//export { default as Post } from './Post';
-export { default as Articles } from './Articles';
-
+// components
+export { default as Posts } from './Posts';
 export { default as Home } from './Home';
-export { default as About } from './About'; // to using about in component (App)
+export { default as About } from './About';
+export { default as Auth }  from './Auth';

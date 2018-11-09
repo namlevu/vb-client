@@ -2,9 +2,9 @@ import React from 'react';
 
 import Sidebar from '../../components/Layout/Sidebar';
 
-export default class Articles extends React.Component {
+export default class Posts extends React.Component {
   render() {
-    console.log("Articles render")
+    console.log("Posts render")
     var pathname = this.props.location.pathname;
     var search = this.props.location.search;
     console.log(pathname);
